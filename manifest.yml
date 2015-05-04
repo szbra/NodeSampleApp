@@ -1,0 +1,12 @@
+applications:
+- services:
+  - szymonsampleapp123-DataCache
+  - szymonsampleapp123-MonitoringAndAnalytics
+  disk_quota: 1024M
+  host: szymonsampleapp123
+  name: szymonsampleapp123
+  command: node app.js
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 512M
